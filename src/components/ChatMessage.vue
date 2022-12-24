@@ -1,4 +1,5 @@
 <template>
+  <h1>БЫБЫБ</h1>
 </template>
 <script>
 export default {

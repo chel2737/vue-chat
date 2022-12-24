@@ -15,7 +15,7 @@
         
       />
 <button>
-<img src="C:/Users/User/vue1/public/img/send.png" />
+<img src="../assets/send.png" />
 </button>
 </div>
 </div>
@@ -28,7 +28,7 @@
 .chat-messages {
   width: 100%;
   background-color: #e9f3fa;
-  background-image: url("C:/Users/User/vue1/public/img/blue-snow.png");
+  background-image: url("../assets/blue-snow.png");
   overflow: auto;
   height: calc(100vh - 60px);
   box-sizing: border-box;
