@@ -1,11 +1,15 @@
 <template>
-  <h1>БЫБЫБ</h1>
+  <div class="chat-message">
+  <div class="info"><slot name="username">{{username}}</slot><slot name="datetime">21.12.2019 05:00:50</slot></div>
+    Hello, World!!!
+  </div>
 </template>
 <script>
 export default {
   name: "ChatMessage",
   props: {
     username: String,
+    datetime: String,
   },
 };
 </script>

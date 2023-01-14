@@ -1,7 +1,7 @@
 <template>
 <Container>
 <ChatWindow>
-<ChatMessage>
+<ChatMessage username="Stiv ">
 </ChatMessage>
 </ChatWindow>
 </Container>

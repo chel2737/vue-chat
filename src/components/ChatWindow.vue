@@ -11,9 +11,7 @@
         placeholder="Ваш никнейм..."
         class="chat-send-name-field"
       />
-<input
-        
-      />
+<input/>
 <button>
 <img src="../assets/send.png" />
 </button>
