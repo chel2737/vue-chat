@@ -18,6 +18,11 @@ export default {
     ChatMessage,
     ChatWindow,
   },
+  methods: {
+    getList() {
+      this.axios.get('https://61bcd385d8542f0017824a2a.mockapi.io/messages').then(response => (console.log(response.data)))
+    }
+  }
 };
 </script>
 <style>
